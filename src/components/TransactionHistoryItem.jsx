@@ -1,3 +1,5 @@
+import css from "./TransactionHistoryItem.module.css";
+
 const TransactionHistoryItem = ({ type, amount, currency }) => {
   return (
     <tr>
