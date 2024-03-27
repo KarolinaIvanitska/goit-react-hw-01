@@ -1,14 +1,18 @@
+import css from "./Profile.module.css";
+
 const Profile = (props) => {
   return (
-    <div>
-      <div>
-        <img src={props.image} alt="User avatar" />
+    <div className={css.wrapper}>
+      <div className={css.card}>
+        <div className={css.portfolio_img}>
+          <img src={props.image} alt="User avatar" />
+        </div>
         <p>{props.name}</p>
         <p>@{props.tag}</p>
         <p>{props.location}</p>
       </div>
 
-      <ul>
+      <ul className={css.ul_portfolio}>
         <li>
           <span>Followers</span>
           <span>{props.stats.followers}</span>

@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #0d0a0a;
+  max-width: 320px;
+  box-shadow: 7px 5px 5px grey;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  width: 320px;
+  text-align: center;
+}
+
+.portfolio_img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+
+  img {
+    border-radius: 50%;
+    background-color: #181212;
+  }
+}
+
+.ul_portfolio {
+  width: 316px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #c8c4c4;
+}
+
+.ul_portfolio li {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  padding: 10px 0;
+}

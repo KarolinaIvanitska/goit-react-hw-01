@@ -8,6 +8,10 @@ import userData from "./userData.json";
 import friends from "./friends.json";
 //clsx
 import clsx from "clsx";
+//modern-normalize
+import "modern-normalize";
+//CSS
+import css from "./App.module.css";
 
 const App = () => {
   return (
