@@ -11,7 +11,7 @@ import clsx from "clsx";
 //modern-normalize
 import "modern-normalize";
 //CSS
-import css from "./App.module.css";
+import "./App.module.css";
 
 const App = () => {
   return (
